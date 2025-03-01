@@ -29,3 +29,6 @@ function getTextFieldValueById(id){
 
 }
 
+function showSectionById(id){
+    
+}
