@@ -18,6 +18,10 @@ function getTextFieldValueById(id){
 
     const textValue = document.getElementById(id).innerText;
     const textNumber = parseFloat(textValue);
+    // console.log('account balance value',textValue);
+
+    // console.log('account balance number',textNumber);
+
     return textNumber;
 
 
