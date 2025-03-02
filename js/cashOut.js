@@ -19,7 +19,7 @@ document.getElementById('btn-cash-out').addEventListener('click',function(event)
 
     // add to transaction history
     const div = document.createElement('div');
-    div.classList.add('bg-blue-300');
+    div.classList.add('bg-blue-200');
     div.innerHTML = `
     
     <h4 class="text-2xl font-bold">cash out</h4>

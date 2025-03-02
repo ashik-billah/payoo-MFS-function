@@ -20,6 +20,11 @@ document.getElementById('btn-add-money').addEventListener('click', function(even
     // console.log('add money with parameter',addMoney);
     // console.log('add pin number with parameter',pinNumber);
 
+    if(isNaN(addMoney)){
+        alert('failed to add money');
+        return;
+    }
+
     if(pinNumber === 1)
 {
     const balance = getTextFieldValueById('account-balance');
