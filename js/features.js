@@ -5,3 +5,8 @@ document.getElementById('show-add-money-form').addEventListener('click', functio
     showSectionById('add-money-form');
 });
 
+document.getElementById('show-cash-out-form').addEventListener('click',function(){
+
+    console.log('show cash out foem');
+    showSectionById('cash-out-form');
+});
