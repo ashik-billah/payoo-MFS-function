@@ -8,7 +8,7 @@ document.getElementById('btn-cash-out').addEventListener('click',function(event)
    const pinNumber = getInputFieldValueById('input-cash-out-pin-number');
   //  console.log(' cash out balance',cashOut);
 
-   if(pinNumber === 123)
+   if(pinNumber === 1)
    {
     const balance = getTextFieldValueById('account-balance');
     // console.log('account balance',balance);

@@ -20,7 +20,7 @@ document.getElementById('btn-add-money').addEventListener('click', function(even
     // console.log('add money with parameter',addMoney);
     // console.log('add pin number with parameter',pinNumber);
 
-    if(pinNumber === 123)
+    if(pinNumber === 1)
 {
     const balance = getTextFieldValueById('account-balance');
     const newBalance = balance + addMoney;
