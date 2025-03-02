@@ -17,6 +17,13 @@ document.getElementById('btn-cash-out').addEventListener('click',function(event)
    {
     const balance = getTextFieldValueById('account-balance');
     // console.log('account balance',balance);
+    if(cashOut > balance){
+      alert('you donot have enough money to cash out');
+      return ;
+    }
+
+
+
     const newBalance = balance - cashOut;
     document.getElementById('account-balance').innerText = newBalance;
     // console.log('new account balance',newBalance);
