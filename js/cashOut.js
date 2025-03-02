@@ -17,6 +17,19 @@ document.getElementById('btn-cash-out').addEventListener('click',function(event)
     // console.log('new account balance',newBalance);
 
 
+    // add to transaction history
+    const div = document.createElement('div');
+    div.classList.add('bg-blue-300');
+    div.innerHTML = `
+    
+    <h4 class="text-2xl font-bold">cash out</h4>
+    <p>${cashOut} withdraw. new balance ${newBalance} </p>
+    
+    `
+    
+    document.getElementById('transaction-container').appendChild(div);
+
+
    }
    else
    {
