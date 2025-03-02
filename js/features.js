@@ -11,7 +11,8 @@ document.getElementById('show-cash-out-form').addEventListener('click',function(
     showSectionById('cash-out-form');
 });
 
-document.getElementById('show-transaction').addEventListener('click',function(){
+document.getElementById('show-transaction-history').addEventListener('click',function(){
 
     console.log('show transaction button');
+    showSectionById('transaction-section');
 });

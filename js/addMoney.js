@@ -27,6 +27,16 @@ document.getElementById('btn-add-money').addEventListener('click', function(even
     document.getElementById('account-balance').innerText = newBalance;
     console.log(balance,addMoney);
 
+    //add to transaction history
+    const p = document.createElement('p');
+    p.innerText = `added : ${addMoney} tk.New Balance : ${newBalance}`;
+    console.log(p);
+
+    //should be a common function
+
+    document.getElementById('transaction-container').appendChild(p);
+
+
 }
 else
 {

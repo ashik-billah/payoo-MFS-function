@@ -29,7 +29,7 @@
                   <div >
                     <button id="show-add-money-form" class="btn btn-sm ">Add Money</button>
                   <button id="show-cash-out-form" class="btn btn-sm ">Cash Out</button>
-                  <button id="show-transaction" class="btn btn-sm ">Transactions</button>
+                  <button id="show-transaction-history" class="btn btn-sm ">Transactions</button>
                   </div>
 
 
@@ -39,7 +39,7 @@
 
 
                   <!--  add money form start -->
-                  <div id="add-money-form" class="hidden  card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
+                  <div id="add-money-form" class="  card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
                     <form class="card-body">
                       <div class="form-control">
                         <label class="label">
@@ -62,7 +62,7 @@
                 <!--  add money form end -->
 
                 <!--   cash out form start -->
-                <div id="cash-out-form" class=" card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
+                <div id="cash-out-form" class="hidden card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
                   <form class="card-body">
                     <div class="form-control">
                       <label class="label">
@@ -87,9 +87,15 @@
               <!-- Transactions start -->
 
               <div id="transaction-section" class="hidden">
-                <h2 class="text-5xl text-center">Transactions history</h2>
+                <h2 class="text-xl text-center">Transactions history</h2>
+
+
+                <div id="transaction-container">
+
+                </div>
              
               </div>
+
 
               <!-- Transactions end -->
 
