@@ -8,6 +8,11 @@ document.getElementById('btn-cash-out').addEventListener('click',function(event)
    const pinNumber = getInputFieldValueById('input-cash-out-pin-number');
   //  console.log(' cash out balance',cashOut);
 
+  if(isNaN(cashOut)){
+    alert('Failed to cash out');
+    return;
+  }
+
    if(pinNumber === 1)
    {
     const balance = getTextFieldValueById('account-balance');
