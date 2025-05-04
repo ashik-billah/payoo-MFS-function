@@ -16,3 +16,9 @@ document.getElementById('show-transaction-history').addEventListener('click',fun
     console.log('show transaction button');
     showSectionById('transaction-section');
 });
+
+document.getElementById('show-transaction-history').addEventListener('click',function(){
+
+    console.log('show transaction button');
+    showSectionById('transaction-section');
+});
